@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+.container {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);  
+  padding: 7%;
+  padding-left: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
+.inner-container {
+  display: grid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.drink-img {
+
+
 }
 
-.App-link {
-  color: #09d3ac;
+.drink-title {
+  font-size: 15px;
 }
+

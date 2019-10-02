@@ -21,13 +21,13 @@ class App extends React.Component {
   }
   render(){
   return (
-    <div className="App">
+    <div className="container">
       {this.state.drinks.map(drink => {
         return(
-          <>
-          <h1>{drink.strDrink}</h1>
-          <img src={drink.strDrinkThumb} alt=""/>
-          </>
+          <div className='inner-container'>
+          <h1 className='drink-title'>{drink.strDrink}</h1>
+          <img classname='drink-img' src={drink.strDrinkThumb} alt="" height='200vh'/>
+          </div>
         )
       })
       }
