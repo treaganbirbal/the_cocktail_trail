@@ -24,7 +24,10 @@ class App extends React.Component {
     <div className="App">
       {this.state.drinks.map(drink => {
         return(
+          <>
           <h1>{drink.strDrink}</h1>
+          <img src={drink.strDrinkThumb} alt=""/>
+          </>
         )
       })
       }
